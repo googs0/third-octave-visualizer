@@ -19,11 +19,11 @@
 `Q` / `ESC` — quit
 
 ## Notes
-- Display levels are relative (for visual comparison, not absolute SPL).
-- Bands are computed by summing FFT power between band edges defined by `2^(±1/6)` from center frequencies.
-- Uses a Hann window; frame length defaults to NFFT=4096.
+- Display levels are relative for visual comparison, not absolute SPL
+- Bands are computed by summing FFT power between band edges defined by `2^(±1/6)` from center frequencies
+- Uses a Hann window; frame length defaults to NFFT=4096
 
 ## Troubleshooting
-- Bars frozen / zero: Mic permissions or wrong device—set `DEVICE` in code or allow mic access.
-- Too jumpy: Increase smoothing (`←`) or enlarge NFFT.
-- Too flat / clipped visually: Adjust gain (`↑`/`↓`).
+- Bars frozen / zero: Mic permissions or wrong device—set `DEVICE` in code or allow mic access
+- Too jumpy: Increase smoothing (`←`) or enlarge NFFT
+- Too flat / clipped visually: Adjust gain (`↑`/`↓`)
