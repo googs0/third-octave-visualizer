@@ -1,7 +1,3 @@
-import numpy as np
-import sounddevice as sd
-import pygame
-
 # 1/3-Octave Equalizer Visualizer
 # Real-time spectrum bars grouped into standard 1/3-octave bands.
 # Toggle A-weighting to see how the spectrum reshapes perceptually.
@@ -12,6 +8,11 @@ import pygame
 #   ↑ / ↓    → change gain (visual scaling)
 #   B        → toggle peak-hold caps on bars
 #   Q or ESC → quit
+
+import numpy as np
+import sounddevice as sd
+import pygame
+
 
 FS = 48000
 NFFT = 4096                 # FFT size per frame
