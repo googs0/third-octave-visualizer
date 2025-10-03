@@ -1,4 +1,4 @@
-### Groups FFT (Fast Fourier Transform) bins into IEC-style 1/3-octave bands (25 Hz to 16 kHz), with optional A-weighting and peak-hold caps.
+### Groups FFT bins into IEC-style 1/3-octave bands (25 Hz to 16 kHz), with adjustable A-weighting and peak-hold caps.
 
 ## Features
 - 29 standard 1/3-octave bands
@@ -27,3 +27,8 @@
 - Frozen bars / zero: Mic permissions or wrong device—set `DEVICE` in code or allow mic access
 - Too jumpy: Increase smoothing (`←`) or make **NFFT** larger
 - Too flat / clipped visually: Adjust gain (`↑`/`↓`)
+
+## Keywords
+FFT = Fast Fourier Transform
+IEC = International Electricotechnical Commission
+Plain wording: Engineers use an FFT algorithm to meet various IEC standards 
