@@ -29,6 +29,6 @@
 - Too flat / clipped visually: Adjust gain (`↑`/`↓`)
 
 ## Keywords
-FFT = Fast Fourier Transform \
-IEC = International Electricotechnical Commission \
-Plain wording: Engineers use an FFT algorithm to meet various IEC standards 
+**FFT** = Fast Fourier Transform takes signal over a period of time and breaks it up into singular frequency components \
+**IEC** = International Electricotechnical Commission \
+**Plain wording:** Engineers use an FFT algorithm to meet various IEC standards 
