@@ -1,6 +1,6 @@
 # 1/3-Octave Equalizer Visualizer
-# Real-time spectrum bars grouped into standard 1/3-octave bands.
-# Toggle A-weighting to see how the spectrum reshapes perceptually.
+# Real-time spectrum bars grouped into standard 1/3-octave bands
+# Toggle A-weighting to see how the spectrum shifts and reshapes
 
 # Controls:
 #   A        → toggle A-weighting on/off (applies in the frequency domain to band powers)
